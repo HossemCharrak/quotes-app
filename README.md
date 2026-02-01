@@ -32,33 +32,36 @@ A modern, interactive quotes application with intelligent recommendation system 
 ## 🛠️ Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone <repository-url>
    cd quotes-frontend
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start the development server**
+
    ```bash
    npm run dev
    ```
 
 4. **Open your browser**
-   
+
    Navigate to `http://localhost:5173`
 
 ## 📦 Available Scripts
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start development server with hot reload |
-| `npm run build` | Build for production |
-| `npm run preview` | Preview production build locally |
-| `npm run lint` | Run ESLint to check code quality |
+| Command           | Description                              |
+| ----------------- | ---------------------------------------- |
+| `npm run dev`     | Start development server with hot reload |
+| `npm run build`   | Build for production                     |
+| `npm run preview` | Preview production build locally         |
+| `npm run lint`    | Run ESLint to check code quality         |
 
 ## 🏗️ Project Structure
 
@@ -85,19 +88,23 @@ quotes-frontend/
 ## 🎯 Usage
 
 ### Login
+
 1. Enter your username on the home page
 2. Click "Login" to access the quotes library
 
 ### Browse Quotes
+
 - Scroll through the grid of quotes
 - Recommended quotes are highlighted with a green badge
 - Click the expand button to view full quote details
 
 ### Like Quotes
+
 - Click the heart icon to like a quote
 - Liked quotes help improve your personalized recommendations
 
 ### Add New Quote
+
 1. Click the "Add New Quote" button
 2. Fill in the quote text, author name, and tags
 3. Submit to add it to the collection
@@ -117,6 +124,7 @@ The application connects to a backend API at `http://127.0.0.1:8000` with the fo
 ## 🎨 UI Components
 
 The app uses [shadcn/ui](https://ui.shadcn.com/) for consistent, accessible components:
+
 - Button
 - Card
 - Dialog
